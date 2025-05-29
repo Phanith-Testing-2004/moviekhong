@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Khong</title>
+  <link rel="stylesheet" href="login.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <link rel="icon" type="image/png" href="../myImg/logo.jpeg">
+
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-form">
+      <h2><i class='bx bxs-movie'></i>Khong Login Account</h2>
+      <div class="input-box">
+        <i class='bx bxs-envelope'></i>
+        <input type="email" placeholder="Email" required />
+      </div>
+      <div class="input-box">
+        <i class='bx bxs-lock-alt'></i>
+        <input type="password" placeholder="Password" required />
+      </div>
+    <section class="footer">
+        <a href="../index.html" class="logo">
+            <i class="bx bxs-movie"></i>Khong
+        </a>
+        <div class="social">
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href=""><i class='bx bxl-tiktok'></i></a>
+            <a href=""><i class='bx bxl-google'></i></a>
+        </div>
+    </section>
+      <button type="submit" class="btn">Sign In</button>
+      <p class="signup-link">Don't have an account? <a href="./signup.html">Sign Up</a></p>
+    </form>
+    <script src="firebase.js"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MovieKH - Watch</title>
+  <link rel="stylesheet" href="video.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link rel="icon" type="image/png" href="../myImg/logo.jpeg">
+
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">
+            <i class='bx bxs-movie'></i>Khong
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    
+        <ul class="navbar">
+            <li><a href="../index.html" class="home-active">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#coming">Coming</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+        <a href="../LoginAndSingUp/login.html" class="btn">Sign In</a>
+    </header>
+
+  <main>
+    <section class="video-container">
+      <video controls>
+        <source src="../video/home1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="movie-details">
+      <h2>គ្រូសង្ហាបណ្ដេញខ្មោច</h2>
+      <p>រឿងខ្មោចចិន</p>
+    </section>
+
+    <section class="related-movies">
+      <!-- <h3>Related Movies</h3> -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <!-- <div class="swiper-slide"><img src="movie1.jpg" alt="Movie 1"/></div>
+          <div class="swiper-slide"><img src="movie2.jpg" alt="Movie 2"/></div>
+          <div class="swiper-slide"><img src="movie3.jpg" alt="Movie 3"/></div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+  </main>
+
+  <section class="footer">
+    <a href="" class="logo">
+        <i class="bx bxs-movie"></i>Khong
+    </a>
+    <div class="social">
+        <a href="" target="_blank" rel="noopener noreferrer"></a><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.tiktok.com/@bro_khong_berng_leaech" target="_blank" rel="noopener noreferrer"><i class='bx bxl-tiktok'></i></a>
+        <a href="https://www.youtube.com/@KhongBerngLearch" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube'></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© Khong All Right Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="video.js"></script>
+</body>
+</html>
